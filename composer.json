@@ -1,0 +1,25 @@
+{
+    "name": "billizzard/nn-html-to-doc",
+    "description": "Convert html string to docx.",
+    "keywords": ["convert", "html", "doc", "docx", "word", "html-to-doc"],
+    "license": "DBAD",
+    "authors": [
+        {
+            "name": "Vladimir Hmylko",
+            "email": "billizzard@mail.ru"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=7.1",
+        "phpoffice/phpword": "^0.15.0"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Billizzard\\NnHtmlToDoc\\": "src/"
+        }
+    }
+}
